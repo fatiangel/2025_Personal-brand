@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>2025 部落格 - Alyse Wang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html" class="nav-item">首頁</a></li>
+            <li><a href="./blog.html" class="nav-item active">部落格</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <div class="banner-photo"></div>
+            <div class="banner-introduce">
+                <div class="banner-introduce-content">
+                    <h1 class="blog-title">BLOG</h1>
+                    <p class="banner-subtitle">前端工程師 & 職涯諮詢師</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="featured-article container">
+          <div class="featured-article-img">
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog-content/About%20Section.png?raw=true"
+              alt="桌上有筆記型電腦顯示程式碼、筆記本和咖啡杯的工作場景"
+            />
+          </div>
+          <div class="featured-article-content">
+            <time datetime="2024-10-21">2024/10/21</time>
+            <div class="featured-article-subtitle">
+              <h2>前端開發 x 職涯成長</h2>
+              <span class="tag">最新文章</span>
+            </div>
+            <h3 class="featured-article-title">自學前端不用怕：從零開始的三大關鍵</h3>
+            <p class="featured-article-description">
+              嗨，我是
+              Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」
+            </p>
+            <a class="button" href="detail.html">閱讀內文</a>
+          </div>
+        </section>
+
+        <section class="blog-container container">
+            <div class="search-input">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_236_1543)">
+                  <path d="M17.6129 15.5163C19.0653 13.5343 19.7159 11.077 19.4343 8.636C19.1528 6.19499 17.96 3.95028 16.0945 2.35097C14.2291 0.751654 11.8285 -0.0843218 9.37314 0.0102879C6.91777 0.104898 4.58867 1.12312 2.85179 2.86123C1.11492 4.59935 0.0983653 6.92919 0.00551259 9.38462C-0.0873401 11.8401 0.750353 14.24 2.351 16.1043C3.95165 17.9687 6.19721 19.1599 8.63842 19.4397C11.0796 19.7194 13.5365 19.0671 15.5174 17.6133H15.5159C15.5599 17.6733 15.6089 17.7308 15.6629 17.7858L21.4379 23.5608C21.7192 23.8422 22.1007 24.0004 22.4986 24.0006C22.8965 24.0007 23.2782 23.8428 23.5596 23.5615C23.8411 23.2803 23.9993 22.8987 23.9994 22.5008C23.9996 22.1029 23.8417 21.7212 23.5604 21.4398L17.7854 15.6648C17.7318 15.6105 17.6741 15.5618 17.6129 15.5163ZM17.9999 9.75027C17.9999 10.8337 17.7865 11.9065 17.3719 12.9074C16.9573 13.9083 16.3496 14.8178 15.5835 15.5839C14.8174 16.35 13.908 16.9577 12.907 17.3723C11.9061 17.7869 10.8333 18.0003 9.74989 18.0003C8.66648 18.0003 7.59369 17.7869 6.59275 17.3723C5.59182 16.9577 4.68234 16.35 3.91626 15.5839C3.15018 14.8178 2.54248 13.9083 2.12788 12.9074C1.71328 11.9065 1.49989 10.8337 1.49989 9.75027C1.49989 7.56224 2.36908 5.46382 3.91626 3.91664C5.46343 2.36947 7.56185 1.50027 9.74989 1.50027C11.9379 1.50027 14.0363 2.36947 15.5835 3.91664C17.1307 5.46382 17.9999 7.56224 17.9999 9.75027Z" fill="#4B4B4B"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_236_1543">
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <input type="text" placeholder="搜尋你感興趣的文章" aria-label="搜尋文章">
+            </div>
+            
+            <div class="blog-list">
+              <ul class="article-cards">
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo4.png?raw=true" alt="React 學習相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-10-11">2024/10/11</time>
+                    <h3 class="article-card-tags">#React #入門基礎</h3>
+                    <h2 class="article-card-title">React 入門不再迷惘：三步驟帶你上手核心概念</h2>
+                    <p class="article-card-description">
+                      你是否對 React
+                      感到好奇，卻苦惱於該如何正式啟動學習之路？身為前端工程師兼職涯諮詢師，我常遇到同學問我...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo1.png?raw=true" alt="前端作品集相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-09-07">2024/09/07</time>
+                    <h3 class="article-card-tags">#作品集 #求職攻略</h3>
+                    <h2 class="article-card-title">前端作品集打造指南：讓你的專案成為履歷亮點</h2>
+                    <p class="article-card-description">
+                      對正在求職的前端工程師而言，作品集往往是第一個「說話」的利器。當面試官瀏覽你的網頁作品時，能夠快速了...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo2.png?raw=true" alt="CSS 設計相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-09-03">2024/09/03</time>
+                    <h3 class="article-card-tags">#CSS設計 #視覺體驗</h3>
+                    <h2 class="article-card-title">CSS 魔法大揭密：排版與設計的三大關鍵技巧</h2>
+                    <p class="article-card-description">
+                      在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo6.png?raw=true" alt="轉職工程師相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-07-09">2024/07/09</time>
+                    <h3 class="article-card-tags">#轉職工程師 #學習心法</h3>
+                    <h2 class="article-card-title">前端轉職必讀：從自學者到工程師的心路歷程</h2>
+                    <p class="article-card-description">
+                      能夠憑藉自學進入前端領域，聽起來令人振奮，但實際過程中可能遇到的挫折與疑慮，卻常常令人猶豫。回想當初我...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo3.png?raw=true" alt="前端面試相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-07-08">2024/07/08</time>
+                    <h3 class="article-card-tags">#面試準備 #工程師求職</h3>
+                    <h2 class="article-card-title">前端面試不再慌：破解常見提問的三大策略</h2>
+                    <p class="article-card-description">
+                      面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo5.png?raw=true" alt="Vue3 學習相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-06-29">2024/06/29</time>
+                    <h3 class="article-card-tags">#Vue3 #框架學習 #入門基礎</h3>
+                    <h2 class="article-card-title">Vue 3 新手指南：快速掌握 Composition API 與關鍵特色</h2>
+                    <p class="article-card-description">
+                      許多前端開發者對 Vue 一直情有獨鍾，因為它易上手又靈活。隨著
+                      Vue 3 上線，Composition API 的導入更是大...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo9.png?raw=true" alt="Git 版本控制相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-05-04">2024/05/04</time>
+                    <h3 class="article-card-tags">#Git #協作流程</h3>
+                    <h2 class="article-card-title">Git 與版本控制：前端協作的必修課</h2>
+                    <p class="article-card-description">
+                      當你從一人開發晉升到多人合作，版本控制的好壞往往決定了專案的順暢度。Git
+                      不僅能記錄程式碼變動，更能確保每...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo7.png?raw=true" alt="SEO 網頁優化相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-05-01">2024/05/01</time>
+                    <h3 class="article-card-tags">#SEO #網頁曝光</h3>
+                    <h2 class="article-card-title">SEO 與前端最佳實踐：讓搜尋引擎看見你的網站</h2>
+                    <p class="article-card-description">
+                      即使你的網站擁有優美的介面與強大的功能，如果在搜尋引擎上找不到它，那就形同隱形。身為前端工程師，瞭解基...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+                <li class="article-card">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo8.png?raw=true" alt="專案維護相關的圖片">
+                  <div class="article-card-content">
+                    <time datetime="2024-02-17">2024/02/17</time>
+                    <h3 class="article-card-tags">#專案維護 #自動化測試</h3>
+                    <h2 class="article-card-title">穩定前端環境的祕訣：依賴管理與自動化流程</h2>
+                    <p class="article-card-description">
+                      前端世界日新月異，第三方套件與工具種類繁多，一個不留神就可能引爆依賴衝突。為了確保專案長期維護的穩定度...
+                    </p>
+                    <a class="button" href="#">閱讀內文</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <nav class="pagination" aria-label="文章分頁導覽">
+              <button class="pagination-prev" aria-label="上一頁">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.031 2.46912C17.1008 2.53879 17.1563 2.62155 17.1941 2.71267C17.2319 2.80379 17.2513 2.90147 17.2513 3.00012C17.2513 3.09877 17.2319 3.19645 17.1941 3.28757C17.1563 3.37869 17.1008 3.46145 17.031 3.53112L8.5605 12.0001L17.031 20.4691C17.1718 20.6099 17.2509 20.801 17.2509 21.0001C17.2509 21.1993 17.1718 21.3903 17.031 21.5311C16.8902 21.6719 16.6992 21.7511 16.5 21.7511C16.3008 21.7511 16.1098 21.6719 15.969 21.5311L6.969 12.5311C6.89915 12.4615 6.84374 12.3787 6.80593 12.2876C6.76812 12.1965 6.74866 12.0988 6.74866 12.0001C6.74866 11.9015 6.76812 11.8038 6.80593 11.7127C6.84374 11.6216 6.89915 11.5388 6.969 11.4691L15.969 2.46912C16.0387 2.39928 16.1214 2.34386 16.2125 2.30605C16.3037 2.26824 16.4013 2.24878 16.5 2.24878C16.5986 2.24878 16.6963 2.26824 16.7874 2.30605C16.8786 2.34386 16.9613 2.39928 17.031 2.46912Z" fill="#4B4B4B"></path>
+                </svg>
+              </button>
+              <ul class="pagination-list">
+                <li><button class="pagination-number active" aria-current="page">1</button></li>
+                <li><button class="pagination-number">2</button></li>  
+                <li><button class="pagination-number">3</button></li>
+                <li><button class="pagination-number">4</button></li>
+                <li><button class="pagination-number">5</button></li>
+                <li><span class="pagination-ellipsis">...</span></li>
+              </ul>
+              <button class="pagination-next" aria-label="下一頁">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.969 2.46912C7.03867 2.39928 7.12143 2.34386 7.21255 2.30605C7.30366 2.26824 7.40135 2.24878 7.5 2.24878C7.59865 2.24878 7.69633 2.26824 7.78745 2.30605C7.87857 2.34386 7.96133 2.39928 8.031 2.46912L17.031 11.4691C17.1008 11.5388 17.1563 11.6216 17.1941 11.7127C17.2319 11.8038 17.2513 11.9015 17.2513 12.0001C17.2513 12.0988 17.2319 12.1965 17.1941 12.2876C17.1563 12.3787 17.1008 12.4615 17.031 12.5311L8.031 21.5311C7.89017 21.6719 7.69916 21.7511 7.5 21.7511C7.30083 21.7511 7.10983 21.6719 6.969 21.5311C6.82817 21.3903 6.74905 21.1993 6.74905 21.0001C6.74905 20.801 6.82817 20.6099 6.969 20.4691L15.4395 12.0001L6.969 3.53112C6.89915 3.46145 6.84374 3.37869 6.80593 3.28757C6.76812 3.19645 6.74866 3.09877 6.74866 3.00012C6.74866 2.90147 6.76812 2.80379 6.80593 2.71267C6.84374 2.62155 6.89915 2.53879 6.969 2.46912Z" fill="#4B4B4B"></path>
+                </svg>
+              </button>
+            </nav>
+        </section>    
+    </main>
+    
+    <footer class="about">
+      <div class="mail">alysewang@hexschool.com</div>
+      <div class="icon">
+        <ul>
+          <li>
+            <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon.png?raw=true" alt="youtube"></a>
+          </li>
+          <li>
+            <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-1.png?raw=true" alt="Podcast"></a>
+          </li>
+          <li>
+            <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-2.png?raw=true" alt="Facebook"></a>
+          </li>
+          <li>
+            <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/icons8-linkedin.png?raw=true" alt="Linkedin"></a>
+          </li>
+          <li>
+            <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/onlyIcon-3.png?raw=true" alt="Instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2025 Alyse Wang. All rights reserved.</p>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
+I want to upload to github and create a repository, then what a license should I choose?

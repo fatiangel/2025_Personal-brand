@@ -1,0 +1,299 @@
+/* --- Navbar --- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+.navbar ul {
+    display: flex;
+}
+.nav-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 24px 20px;
+    display: block;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s;
+}
+.nav-item:hover, .nav-item.active {
+    color: #0027D5;
+    border-bottom-color: #0027D5;
+}
+
+/* --- Banner --- */
+.banner {
+    display: flex;
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+.banner-photo {
+    width: 50%;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true');
+    background-size: cover;
+    background-position: center;
+}
+.banner-introduce {
+    width: 50%;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.banner-introduce-content {
+    color: #0027D5;
+    margin-left: 80px;
+}
+.blog-title { 
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+}
+.banner-subtitle { 
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* --- Featured Article --- */
+.featured-article {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    /*padding-top: 80px;*/
+    /*padding-bottom: 80px;*/
+}
+.featured-article-img {
+    width: 50%;
+    align-self: stretch;
+}
+.featured-article-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featured-article-content {
+    width: 50%;
+}
+.featured-article-content time {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0027D5;
+}
+.featured-article-subtitle {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+.featured-article-subtitle h2 { 
+    font-size: 24px;
+    font-weight: 700;
+    color: #0027D5;
+}
+.featured-article-subtitle .tag {
+    background-color: rgb(0, 39, 213);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.featured-article-title { 
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.featured-article-description {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+/* --- Blog List --- */
+/*.blog-container {
+    padding-bottom: 80px;
+}*/
+
+.search-input {
+    max-width: 416px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 80px 12px 40px 40px; /* Adjusted margin based on original blog.css for search input */
+}
+.search-input input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+.blog-list {
+    margin-top: 40px;
+}
+.article-cards { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.article-card {
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures image corners are rounded with card */
+    display: flex;
+    flex-direction: column;
+}
+.article-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for consistent card image size */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+.article-card-content {
+    padding: 24px;
+    flex-grow: 1; /* Allows content to expand and push button to bottom */
+    display: flex;
+    flex-direction: column;
+}
+.article-card-content time {
+    font-size: 16px;
+    color: #9B9B9B;
+    margin-bottom: 8px;
+}
+.article-card-tags {
+    font-size: 16px;
+    color: #0027D5;
+    margin-bottom: 12px;
+}
+.article-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 12px;
+}
+.article-card-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 24px;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.article-card .button {
+    align-self: flex-start; /* Aligns button to the left within the flex column */
+    margin-top: auto; /* Pushes button to the bottom if content is shorter */
+}
+
+/* --- Pagination --- */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 80px;
+}
+.pagination-list {
+    display: flex;
+    gap: 8px;
+}
+.pagination-number {
+    background-color: transparent;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4B4B4B;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.pagination-number.active,
+.pagination-number:hover {
+    background-color: #0027D5;
+    color: #FFFFFF;
+    border-color: #0027D5;
+}
+.pagination-prev,
+.pagination-next {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.pagination-prev svg,
+.pagination-next svg {
+    fill: #4B4B4B;
+    transition: fill 0.3s;
+}
+.pagination-prev:hover svg,
+.pagination-next:hover svg {
+    fill: #0027D5;
+}
+.pagination-ellipsis {
+    font-size: 18px;
+    color: #4B4B4B;
+    padding: 0 4px;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 32px 0;
+    text-align: center;
+}
+.footer p {
+    font-size: 16px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 24px 80px; /* Adjusted padding-top and padding-bottom to 24px */
+  margin-top: 80px;
+  align-items: center; /* Added to vertically center content */
+}
+.about .mail {
+    font-size: 32px;
+}
+.about .mail a { /* Added styling for mailto link */
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
+.about .icon ul {
+    display: flex;
+    gap: 4px;
+}
+.about .icon ul li a {
+    display: block;
+    width: fit-content;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #000000;
+}
+.copyright p {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 24px;
+}
